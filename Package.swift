@@ -8,7 +8,7 @@ let package = Package(
     platforms: [.iOS(.v13), .macOS(.v11)],
     products: [
         .library(
-            name: "LASDKiOS"
+            name: "LASDKiOS",
             type: .static,
             targets: ["SwiftLASDKiOS"]),
     ],
