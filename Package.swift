@@ -22,8 +22,8 @@ let package = Package(
                 "CBARealTime"
             ]
         ),
-        .binaryTarget(name: "LASDKiOS", url: "https://swift-sdk.s3.us-east-2.amazonaws.com/lasdk/LASDKiOS-2.0.0-beta.1.xcframework.zip", checksum: "cde9e0074545f2eb458152ec1fac24f4c26842c7800f0784a943c9ef67cd3e8a"),
-        .binaryTarget(name: "FCSDKiOS", url: "https://swift-sdk.s3.us-east-2.amazonaws.com/client_sdk/FCSDKiOS-4.1.0.xcframework.zip", checksum: "0675c5223adf99d56c527bcb418f02b7a8c53ed4c86aa5f72e129e36997ad561"),
-        .binaryTarget(name: "CBARealTime", url: "https://swift-sdk.s3.us-east-2.amazonaws.com/real_time/CBARealTime-m105-1.0.0.xcframework.zip", checksum: "0972ae7dc69b1b531b518d2be406a0c405ea9e0925c51e098f407fb51d58199b")
+        .binaryTarget(name: "LASDKiOS", url: "https://swift-sdk.s3.us-east-2.amazonaws.com/lasdk/LASDKiOS-2.0.0.xcframework.zip", checksum: "8b54aa6885c116a2e12bda636af8b63a6a815bbddb1d19aeda07080a7a07a0ec"),
+        .binaryTarget(name: "FCSDKiOS", url: "https://swift-sdk.s3.us-east-2.amazonaws.com/client_sdk/FCSDKiOS-4.2.0.xcframework.zip", checksum: "80c8a3014f4033a32c435f538e01341e7511b7c5d9a6cc917a7d396bb29cf0a5"),
+        .binaryTarget(name: "CBARealTime", url: "https://swift-sdk.s3.us-east-2.amazonaws.com/real_time/CBARealTime-m110-1.0.0.xcframework.zip", checksum: "a2f4cee24ce4389aa00feb86edd8dc8c67a43aedf1f8b4ceb5998c94f16a5e3d")
     ]
 )
