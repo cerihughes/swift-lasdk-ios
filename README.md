@@ -71,7 +71,7 @@ end
 *If that is the case please try running the following Pod Commands*
 
 ```
-sudo rm -fr ~/.cocoapods/repos/cbajapan-swift-lasdk-ios
+sudo rm -rf ~/.cocoapods/repos/cbajapan-swift-lasdk-ios
 pod setup
 pod install
 ```
