@@ -22,7 +22,7 @@ let package = Package(
                 "CBARealTime"
             ]
         ),
-        .binaryTarget(name: "LASDKiOS", url: "https://swift-sdk.s3.us-east-2.amazonaws.com/lasdk/LASDKiOS-2.0.0.xcframework.zip", checksum: "b0e85039a1f910ddfcc9e73efc73e3713e5a5514d4129624952aebdc4a9a3fb9"),
+        .binaryTarget(name: "LASDKiOS", url: "https://swift-sdk.s3.us-east-2.amazonaws.com/lasdk/LASDKiOS-2.0.0.xcframework.zip", checksum: "684071e3f101884eaa93d96acb7b16c9cc457a28f8e4749694e15db713f4484c"),
         .binaryTarget(name: "FCSDKiOS", url: "https://swift-sdk.s3.us-east-2.amazonaws.com/client_sdk/FCSDKiOS-4.2.2.xcframework.zip", checksum: "58f164fcd070715e04d3da5211369eda116e03c508a7136469b618caab0343f9"),
         .binaryTarget(name: "CBARealTime", url: "https://swift-sdk.s3.us-east-2.amazonaws.com/real_time/CBARealTime-m110-1.0.0.xcframework.zip", checksum: "a2f4cee24ce4389aa00feb86edd8dc8c67a43aedf1f8b4ceb5998c94f16a5e3d")
     ]
