@@ -19,7 +19,7 @@ let package = Package(
             dependencies: [
                 "LASDKiOS",
                 "FCSDKiOS",
-                "CBARealTime"
+                "WebRTC"
             ]
         ),
         .binaryTarget(name: "LASDKiOS", url: "https://swift-sdk.s3.us-east-2.amazonaws.com/lasdk/LASDKiOS-2.0.0.xcframework.zip", checksum: "469809d6d68b7b854529ec09e24b46b0d3d2405b28d66654ac155a7d6594efe8"),
