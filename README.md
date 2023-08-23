@@ -58,7 +58,6 @@ target 'CBAFusion' do
 
   # Pods for CBAFusion
 pod 'LASDKiOS', '~> 2.0.0'
-pod 'FCSDKiOS', '~> 4.2.2'
 pod 'WebRTC', '~> 110.0.0'
 end
 ```
